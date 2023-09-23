@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.table td input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions img {
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 400px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-weight: bold;
+}
+
+.deletedButton {
+  padding: 100px;
+}
+
+.pageButtons {
+  width: 50%;
+  height: 50%;
+  border-radius: 50px;
+}
